@@ -45,4 +45,7 @@ returns the product.
 
 
 def product(*args: float) -> float:
-    pass
+    result: float = 1
+    for num in args:
+        result = result * num
+    return result
