@@ -7,7 +7,8 @@ from 1 to n.
 
 
 def sum_to(n: int) -> int:
-    pass
+    return sum(range(n + 1))
+
 
 """
 Write a function named largest
