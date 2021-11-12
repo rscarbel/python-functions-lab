@@ -1,10 +1,12 @@
 import unittest
 import main
 
+print(main.sum_to(6))
+
 
 class MyTestCase(unittest.TestCase):
     def test_sum_to_6(self):
-        self.assertEqual(main.sum_to(6), 21)
+        self.assertEqual(main.sum_to(6), 21, 'Checks if 6 outputs 21')
 
     def test_sum_to_10(self):
         self.assertEqual(main.sum_to(10), 55)
@@ -35,6 +37,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_product_3(self):
         self.assertEqual(main.product(4, 0.5, 5), 10)
+
 
 if __name__ == '__main__':
     unittest.main()
