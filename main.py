@@ -8,9 +8,10 @@ from 1 to n. For example:
     sum_to(10) # returns 55
 
 """
+
+
 def sum_to(n: int) -> int:
     pass
-
 
 """
 Write a function named largest
@@ -24,7 +25,9 @@ For example:
     largest([10, 4, 2, 231, 91, 54])  # returns 231
 
 """
-def (largest: list) -> int:
+
+
+def largest(nums: list) -> int:
     pass
 
 
@@ -43,8 +46,11 @@ For example:
     occupancies('fleep floop', 'fe')  # returns 0
 
 """
-def occurrences (str1: str, str2: str) -> int:
+
+
+def occurrences(str1: str, str2: str) -> int:
     pass
+
 
 """
 Write a function named product that
@@ -60,5 +66,7 @@ For example:
     product(4, 0.5, 5) # returns 10.0
 
 """
-def product (*args: int) -> int:
+
+
+def product(*args: float) -> float:
     pass
