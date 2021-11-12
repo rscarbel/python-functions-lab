@@ -32,7 +32,7 @@ inside the first string.
 
 
 def occurrences(str1: str, str2: str) -> int:
-    pass
+    return str1.count(str2)
 
 
 """
