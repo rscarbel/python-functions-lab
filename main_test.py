@@ -1,8 +1,6 @@
 import unittest
 import main
 
-print(main.sum_to(6))
-
 
 class MyTestCase(unittest.TestCase):
     def test_sum_to_6(self):
