@@ -19,7 +19,7 @@ number in that list.
 
 
 def largest(nums: list) -> int:
-    pass
+    return max(nums)
 
 
 """
